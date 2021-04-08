@@ -1,5 +1,6 @@
 nav i{
 	float: left;
+	padding-left: 0.5em;
 }
 
 nav{
@@ -46,7 +47,7 @@ nav{
 	border: none;
 	outline: none;
 	color: black;
-	padding: 1px 40px;
+	padding: 0px 20px;
 	text-transform: uppercase;
     font-weight: 700;
     margin: 0% auto;

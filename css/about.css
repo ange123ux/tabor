@@ -1,5 +1,6 @@
 nav i{
 	float: left;
+	padding-left: 0.5em;
 	
 }
 
@@ -13,7 +14,7 @@ nav{
 	box-sizing: border-box;
 	background-color: rgb(182, 180, 184);
 	padding: 15px;
-	width: 100%;
+	width: 1260px;
 	z-index: 9999;
   }
   
@@ -32,7 +33,7 @@ nav{
 
   .dropdown {
 	float: right;
-	overflow: hidden;
+	/* overflow: hidden; */
 
   }
   .dropdown i{
