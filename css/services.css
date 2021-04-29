@@ -13,7 +13,7 @@
   /***************/
   
   .service-wrp{
-  background: #060927 url("../images/02.png");
+  background: #eaf0f2;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -43,12 +43,12 @@
   font-size: 32px;
   font-weight: 300;
   line-height: 1.5;
-  color: white;
+  color: black;
   font-family: 'Akaya Telivigala', cursive;
   }
   
   .bg-dark{
-  background-color: rgba(19, 96, 239, 0.02);
+  /* background-color: rgba(239, 19, 147, 0.02); */
   padding: 30px;
   }
   
@@ -80,21 +80,21 @@
   }
 
 .info a {
-  background-color: rgb(3, 3, 73);
+  background-color: rgb(3, 45, 73);
   color: white;
 }
   .icon img{
     height: 70px;
   }
   .service-card .heading h5{
-  color: white;
+  color: black;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.3
   }
   
   .service-card .info{
-  color: #8090b5;
+  color: black;
   line-height: 1.7;
   	
   }

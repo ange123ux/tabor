@@ -19,25 +19,36 @@
 </head>
 
 <body>
-    <nav>
-        <i class="fa fa-phone" aria-hidden="true"> (+250)788501709 | (+250)786890912 </i>
-
-        <i class="fa fa-fw fa-envelope" aria-hidden="true">taborltd@gmail.com</i>
-        <a href="home.html">Home</a>
-        <a href="about.html">About Us</a>
-        <div class="dropdown">
-            <button class="dropbtn">Our Services
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#printers">Printers and Computers</a>
-                <a href="#maintenance">Maintenance, Consumables & Spare Parts</a>
-                <a>Installations</a>
-                <a>Consultations</a>
+    <div class="nav">
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" class="tabor">Tabor Ltd</a>
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <div class="dropdown">
+                <button class="dropbtn">Our Services
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#printers">Printers & Computers</a>
+                    <a href="#maintenance">Maintenance, Consumables & Spare Parts</a>
+                    <a>Installations & Consultations</a>
+                </div>
             </div>
+            <a href="contact.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </div>
 
     <section class="service-wrp">
         <div class="service-wrp-inner">
